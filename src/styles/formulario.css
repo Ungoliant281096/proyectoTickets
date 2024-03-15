@@ -23,6 +23,24 @@
     border: 1px solid #0088ff;
     border-radius: 3px;
   }
+
+  /* Estilos para el textArea */
+.textarea {
+  width: 100%; /* Ancho completo del contenedor */
+  height: 150px; /* Altura fija */
+  padding: 10px; /* Espacio interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Borde redondeado */
+  font-size: 16px; /* Tamaño de fuente */
+  resize: vertical; /* Permitir redimensionar verticalmente */
+}
+
+/* Estilos cuando el textArea está enfocado */
+.textarea:focus {
+  border-color: #007bff; /* Cambiar color del borde al enfocar */
+  outline: none; /* Eliminar el contorno al enfocar */
+}
+
   
   /* Estilos para los botones */
   .form-container button {

@@ -28,7 +28,8 @@ function Formulario() {
         <input type="text" id="campo4" name="campo4" required /><br /><br />
 
         <label htmlFor="campo5">Descripción:</label><br />
-        <input type="text" id="campo5" name="campo5" required /><br /><br />
+        <textarea className="textarea" id="campo5" name="campo5" required /><br /><br />
+
 
         <button type="submit">Enviar</button>
         <button type="reset">Limpiar</button>
