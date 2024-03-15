@@ -1,0 +1,48 @@
+/* Estilos para el contenedor del formulario */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0088ff;
+    border-radius: 5px;
+    background-color: #d2d2d2;
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  .form-container label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Esto asegura que el padding y el border se incluyan en el ancho total */
+    border: 1px solid #0088ff;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para los botones */
+  .form-container button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilos específicos para el botón de enviar */
+  .form-container button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Estilos específicos para el botón de limpiar */
+  .form-container button[type="reset"] {
+    background-color: #ff0000;
+    color: white;
+  }
+  
